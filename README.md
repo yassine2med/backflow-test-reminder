@@ -1,5 +1,7 @@
 # backflow-test-reminder
 
+[![CI](https://github.com/yassine2med/backflow-test-reminder/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/backflow-test-reminder/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 Backflow preventers on fire risers, irrigation and boiler feeds need a certified test on a fixed cycle, usually yearly. Missed tests are a compliance finding and are easy to lose in a spreadsheet. This tool reads a device list as CSV, computes each next due date and prints the list with the most urgent first. It exits with code 1 when any device is overdue, so a scheduled job can alert on it.
 
 ![Screenshot](docs/screenshot.png)
